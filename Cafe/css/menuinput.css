@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menuinputdiv {
+    width: 40%;
+    margin: 2% 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.eatname, .eatprice {
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #fbc531;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.eatinfo {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #fbc531;
+    border-radius: 3px;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.eatname:hover{
+    box-shadow: 0 0 3px #b2bec3;
+    width: 98%;
+}
+.eatinfo:hover {
+    box-shadow: 0 0 3px #b2bec3;
+    width: 98%;
+}
+.eatprice:hover{
+    box-shadow: 0 0 3px #b2bec3;
+    width: 98%;
+}
+
+.eatphotodiv>p{
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.eatphotodiv{
+    display: flex; 
+    justify-content: center;
+}
+
+/*.file{
+    opacity: 1;
+    width: 105px;
+    height: 35px;
+    position: absolute;
+}*/
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.file-input label {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(40deg, #273c75, #2f3640);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+}
+
+.menugonder{
+    width: 30%;
+    margin: 0 35%;
+    padding: 5px 0;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: #273c75;
+    color: greenyellow;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menugonder:hover{
+    background-color: greenyellow;
+    color: #273c75;
+
+}
